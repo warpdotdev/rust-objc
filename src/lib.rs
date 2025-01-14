@@ -63,8 +63,6 @@ The bindings can be used on Linux or *BSD utilizing the
 #![crate_name = "objc"]
 #![crate_type = "lib"]
 
-#![warn(missing_docs)]
-
 extern crate malloc_buf;
 #[cfg(feature = "exception")]
 extern crate objc_exception;
